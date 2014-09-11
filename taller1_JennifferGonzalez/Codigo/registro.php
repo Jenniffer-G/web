@@ -11,52 +11,57 @@ session_start();
 include_once "conexion.php"; 
              
 ?> 
-<style> 
-        *{ 
-            font-size: 14px; 
-            font-family: sans-serif; 
-        } 
-        body{ 
-            background:#aaa; 
-        } 
-        form.registro{ 
-            background: none repeat scroll 0 0 #F1F1F1; 
-            border: 1px solid #DDDDDD; 
-            margin: 0 auto; 
-            padding: 20px; 
-            width: 278px; 
-            box-shadow:0px 0px 20px black;  
-            border-radius:10px;  
-            position:relative; 
-            top:30px; 
-        } 
-        form.registro div { 
-            margin-bottom: 15px; 
-            overflow: hidden; 
-        } 
-        form.registro div label { 
-            display: block; 
-            float: left; 
-            line-height: 25px; 
-        } 
-        form.registro div input[type="text"], form.registro div input[type="password"] { 
-            border: 1px solid #DCDCDC; 
-            float: right; 
-            padding: 4px; 
-        } 
-        form.registro div input[type="submit"] { 
-            background: none repeat scroll 0 0 #DEDEDE; 
-            border: 1px solid #C6C6C6; 
-            float: right; 
-            font-weight: bold; 
-            padding: 4px 20px; 
-        } 
-        .error{ 
-            color: red; 
-            font-weight: bold; 
-            margin: 10px; 
-            text-align: center; 
-        } 
+<style type="text/css"> 
+    *{ 
+        font-size: 14px; 
+    } 
+    body{ 
+    background:#aaa; 
+    } 
+    form.registro { 
+        background: none repeat scroll 0 0 #F1F1F1; 
+        border: 1px solid #DDDDDD; 
+        font-family: sans-serif; 
+        margin: 40 auto; 
+        padding: 20px; 
+        width: 278px; 
+        box-shadow:0px 0px 20px black; 
+        border-radius:10px; 
+    } 
+    form.registro div { 
+        margin-bottom: 15px; 
+        overflow: hidden; 
+    } 
+    form.registro div label { 
+        display: block; 
+        float: left; 
+        line-height: 25px; 
+    } 
+    form.registro div input[type="text"], form.registro div input[type="password"] { 
+        border: 1px solid #DCDCDC; 
+        float: right; 
+        padding: 4px; 
+    } 
+    form.registro div input[type="submit"] { 
+        background: none repeat scroll 0 0 #DEDEDE; 
+        border: 1px solid #C6C6C6; 
+        float: right; 
+        font-weight: bold; 
+        padding: 4px 20px; 
+    } 
+
+        form.registro div input[type="Registrarce"] { 
+        background: none repeat scroll 0 0 #DEDEDE; 
+        border: 1px solid #C6C6C6; 
+        float: right; 
+        font-weight: bold; 
+        padding: 4px 20px; 
+    } 
+    .error{ 
+        color: black;  
+        margin: 10px; 
+        text-align: left; 
+    } 
 </style> 
 
 <form action="" method="post" class="registro"> 
@@ -69,7 +74,7 @@ include_once "conexion.php";
 <div> 
 <input type="submit" name="enviar" value="Registrar"></div> 
 <div><a href="login.php">Ingresar</a></div> 
-</form> 
+
              
 <?php 
 if(isset($_POST['enviar'])) 
@@ -111,8 +116,10 @@ if(isset($_POST['enviar']))
         } 
         else 
         { 
-            echo 'Este usuario ya ha sido registrado anteriormente.'; 
+            echo '<div class="error">Este usuario ya ha sido registrado anteriormente.</div>'; 
         } 
     } 
 } 
 ?> 
+
+</form> 
