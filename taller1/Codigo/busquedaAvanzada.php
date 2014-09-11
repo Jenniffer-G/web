@@ -25,7 +25,7 @@
 	
 	
 	<table width="100%">
-    <td width='22%'><h2>Usuario</h2></td>
+    <td width='22.1%'><h2>Usuario</h2></td>
     <td width='20.5%'><h2>Creacion</h2></td>		
     <td width='20.5%'><h2>Finalizacion</h2></td>
     <td width='22.1%'><h2>Prioridad</h2></td>
