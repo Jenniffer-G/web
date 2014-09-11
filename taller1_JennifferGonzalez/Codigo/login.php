@@ -110,5 +110,4 @@ if(!isset($_SESSION['userid']))
     echo '<a href="logout.php">Logout</a>'; 
 } 
 ?>
-
 </form> 
