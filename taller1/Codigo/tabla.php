@@ -112,6 +112,7 @@ echo "</h5>";
 
 <h5>Seleccione la prioridad:
 <select name="prioridad">
+<option>---</option>;
 <option value="alta">Alta</option>
 <option value="media">Media</option>
 <option value="baja">Baja</option>
@@ -136,6 +137,7 @@ Descripcion: <input name="descripcion" type="text">
 <?php
 echo "<h5>Vista de los perfiles: ";
 echo "<select name='usuario'>";
+echo "<option>---</option>";
 for ($i=0; $i < sizeof($usuarios); $i++) { 
 		echo "<option>".$usuarios[$i]."</option>";
 	}
