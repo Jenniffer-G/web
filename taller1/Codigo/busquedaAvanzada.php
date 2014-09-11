@@ -15,7 +15,7 @@
 	$descripcion = $_POST['descripcion'];
 
 
-	$consulta =  mysql_query("SELECT * FROM gestion_de_tareas.tareas WHERE creacion LIKE '$creacion' or finalizacion LIKE '$finalizacion' or prioridad LIKE '$prioridad' or descripcion LIKE '$descripcion' ORDER BY creacion, prioridad ",$enlace);
+	$consulta =  mysql_query("SELECT * FROM gestion_de_tareas.tareas WHERE usuario LIKE '$usuario' or creacion LIKE '$creacion' or finalizacion LIKE '$finalizacion' or prioridad LIKE '$prioridad' or descripcion LIKE '$descripcion' ORDER BY creacion, prioridad ",$enlace);
 
 	echo "<h1 >";
 	echo "Resultado de la busqueda";
