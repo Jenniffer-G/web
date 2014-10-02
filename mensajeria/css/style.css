@@ -1,0 +1,106 @@
+*{
+	font-family: 'Helvetica', cursive;
+	margin: 0;  
+	padding: 0;
+}
+body {
+	background: #ecf0f1;
+	background: url("imagenes/fondo.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+header {
+	background: url("imagenes/mensaje.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+	#nombre{
+		padding-top: 100px;
+		padding-left: 200px;
+		padding-bottom: 20px;
+		color: white;
+		font-size: 40px;
+	}
+.navegacion nav {
+	background: url("imagenes/header.png");
+	background-size: 100% 100%;
+	text-align: center;
+}
+	nav li {
+		display: inline-block;
+		margin: 0 15px 0 15px;
+	}
+	nav a {
+		color: white;
+		margin: 0 15px 0 15px;
+	}
+.contenedor{
+	margin: auto;
+	width: 90%;
+}
+.contenedor img{
+	margin-top: 25px;
+	width: 50%
+}
+.post {
+	background: url("imagenes/mensajeDos.png");
+	background-size: 100% 110%;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	width: 95%;
+}
+	.post a {
+		color: white;
+		display: inline-block;
+		text-align: center;
+		margin-top: 2px;
+		width: 95%;
+	}
+.user{
+	display: inline-block;
+	font-weight: bold;
+}
+.titulo{
+	display: inline-block;
+	text-align: left;
+	margin-left:5px;
+	margin-top:10px;
+	width: 80%;
+	font-weight: bold;
+	color:#f9b87e;
+}
+.content{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 1px;
+	padding: 20px;
+	vertical-align: top;
+	width: 70%;
+}
+ .likes a{
+	display: inline-block;
+	text-align: right;
+	margin-left:-65px;
+	padding-top:-20px;
+	width: 90%;
+}
+
+.Dislikes a{
+	display: inline-block;
+	text-align: right;
+	margin-left:-65px;
+	margin-top:5px;
+	padding-bottom:10px;
+	width: 90%;
+}
+.Favoritos{
+	display: inline-block;
+	text-align: right;
+	margin-left:-65px;
+	margin-top:5px;
+	padding-bottom:10px;
+	width: 90%;
+	font-weight: bold;
+}
