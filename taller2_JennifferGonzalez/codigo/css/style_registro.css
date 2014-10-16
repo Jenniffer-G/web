@@ -1,0 +1,62 @@
+  
+    *{ 
+        font-family: 'Scada', sans-serif;
+        font-size: 14px; 
+    } 
+    body{ 
+        background:#aaa; 
+        background: url("../img/fondo.png");
+        background-repeat: repeat;
+        background-size: cover;
+    } 
+    form.registro { 
+        background: url("../img/registro.png");
+        background-size: 100% 100%;
+        font-family: sans-serif; 
+        margin-top: 190px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px; 
+        width: 318px; 
+    } 
+    form.registro div { 
+        margin-bottom: 15px;
+        margin-right:5%;
+        margin-left:5%;
+        overflow: hidden; 
+    } 
+    form.registro div.usu {
+        margin-top:90px;
+    }
+    form.registro div label { 
+        display: block; 
+        float: left; 
+        line-height: 25px; 
+    } 
+    form.registro div input[type="text"], form.registro div input[type="password"] { 
+        border: 1px solid #DCDCDC;
+        border-radius: 7px 7px 7px 7px; 
+        float: right; 
+        padding: 4px; 
+    } 
+    form.registro div input[type="submit"] { 
+        background: none repeat scroll 0 0 #eb4a3f; 
+        border: 1px solid #eb4a3f; 
+        color:white;
+        float: right; 
+        font-weight: bold; 
+        padding: 4px 20px; 
+    } 
+
+        form.registro div input[type="Registrarce"] { 
+        background: none repeat scroll 0 0 #DEDEDE; 
+        border: 1px solid #C6C6C6; 
+        float: right; 
+        font-weight: bold; 
+        padding: 4px 20px; 
+    } 
+    .error{ 
+        color: black;  
+        margin: 10px; 
+        text-align: left; 
+    } 

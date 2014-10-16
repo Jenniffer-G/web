@@ -1,0 +1,58 @@
+*{ 
+    /* font-size: 14px; */ 
+    font-family: 'Scada', sans-serif;
+} 
+body{ 
+    background: url("../img/fondo.png");
+	background-repeat: repeat;
+    background-size: cover;
+} 
+form.login { 
+    background: url("../img/login.png");
+    background-size: 100% 100%;
+    font-family: sans-serif; 
+    margin-top: 210px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px; 
+    width: 308px; 
+}
+form.login .usu{
+    margin-top:140px;
+} 
+form.login div { 
+    margin-bottom: 10px;
+    overflow: hidden; 
+} 
+form.login div label { 
+    display: block; 
+    float: left; 
+    line-height: 25px; 
+} 
+form.login div input[type="text"], form.login div input[type="password"] { 
+    border: 1px solid #DCDCDC;  
+    padding: 4px; 
+    border-radius: 7px 7px 7px 7px;
+    margin-left:30px;
+    width:76%;
+} 
+form.login div input[type="submit"] { 
+    background: none repeat scroll 0 0 #eb4a3f; 
+    border: 1px solid #eb4a3f; 
+    color: white;
+    float: right; 
+    font-weight: bold; 
+    padding: 4px 20px; 
+} 
+form.login div input[type="Registrarce"] { 
+    background: none repeat scroll 0 0 #DEDEDE; 
+    border: 1px solid #C6C6C6; 
+    float: right; 
+    font-weight: bold; 
+    padding: 4px 20px; 
+} 
+.error{ 
+    color: black;  
+    margin: 10px; 
+    text-align: left; 
+} 

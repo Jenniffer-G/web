@@ -1,0 +1,170 @@
+	*{  
+	    font-family: 'Scada', sans-serif;
+	    font-size: 20px;
+	} 
+	body{ 
+		background: #e3e5e8;
+	}
+
+	.cat{
+		margin-top: -20px;
+		margin-bottom: -20px;
+	}
+
+	.desta{
+		background-color: #23cdb7;
+		color: white; 
+		text-align: center;
+		margin-top:-20px;
+	}
+	.desta h2{
+		font-size:40px;	
+		margin-top: -20px;	
+	}
+
+	.dest{
+		background-color: #23cdb7;
+		color: white; 
+		text-align: center;
+		margin-top:-20px;		
+	}
+	.dest h2{
+		font-size:70px;		
+	}
+	
+	header{
+		background: #eb4a3f;	
+	}
+	header .user{
+		display: inline-block;
+		margin:40px;
+		margin-left:90px;
+		color: white;
+	}
+	header .user h1{
+		float:right;
+		margin:20px;
+		margin-top:50px;
+	}
+	header .user .redondo{
+		display: inline-block;
+		border: 2px solid white;
+		margin: 0px;
+		padding: 0;
+		border-radius: 900px;
+		width:130px;
+		height:140px;
+		overflow: hidden;
+	}
+
+	header .user h1 hr{
+		width: 940px;
+		border-width: 4px;
+	}
+
+	@media (min-width: 868px) {
+		.navbar-header {
+			margin-left:30%;
+		}
+	}
+
+	.navbar-default {
+	    background-color: #23cdb7;
+	    border: none;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+	    color: #025a4f;
+	}
+
+	.navbar-default .navbar-nav > .dropdown > a .caret {
+	    border-top-color: #777;
+	    border-bottom-color: #777;
+	}
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus {
+	    color: white;
+	    background-color: #eb4a3f;
+	}
+	.navbar .nav > li > a { 
+		color: white; 
+	}
+	.navbar-default .navbar-brand {
+		color: white;
+	    font-family: 'Scada', sans-serif;
+	    font-size: 20px;
+	}
+	nav li {
+		display: inline-block;
+	}
+	nav a {
+		color: white;
+		margin: 0 25px 0 25px;
+	}
+
+	.producto{
+		display: inline-block;
+	    background-color: white;
+	    background: url('../img/articulo.png');
+	    color: black;	
+		width:93%;
+		margin-top:10px; 
+		margin-left:4%;
+	}
+
+	.producto .desc{
+		position:relative; 
+		margin-top: -180px;
+
+		margin-left: 470px;
+		margin-right: 0px;
+		padding-right: 0px;
+	}
+
+
+
+	.producto .desc a{
+		background: #e75280;
+		border-color: #e75280;
+		margin-left: 20px;
+	}
+	
+	.producto img{
+		margin-left:110px;
+		margin-top:20px;
+		margin-bottom:10px;
+		width:300px;
+		height:140px;
+	}
+
+	.producto h4{
+		display: inline-block;
+		width:80%;
+		margin-bottom:30px;
+	}
+
+	div#carousel-example-generic{
+		margin-top:-20px;
+	}
+
+	.producto .rectDos{
+		width: 7%;
+		height: 60px;
+		background-color: #e75280;
+		margin-left:auto;
+		margin-top:-28px;
+		margin-bottom:-20px;
+	}
+
+	.producto .desc .bot{
+		margin-top:-45px;
+		margin-left:695px;
+		position:absolute;
+	}
+
+	.producto .desc .bot span{
+		margin-top:-4px;
+		font-size:30px;
+	}
