@@ -7,24 +7,7 @@
 	width:75px; 
 	height:75px;
 }
-#boxB { 
-	background-color: #FF6699; 
-	float:left;
-   padding:10px;
-   margin:10px;
-   -moz-user-select:none;
-	width:300px; 
-	height:300px; 
-}
 
-#lienzo {
-	width: 300px;
-	height: 300px;
-	float:left;
-	margin:10px;
-	border:1px solid #999999;
-	background: white;
-}
 
 
 
