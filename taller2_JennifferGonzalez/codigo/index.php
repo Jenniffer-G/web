@@ -72,7 +72,7 @@
 			      <ul class="nav navbar-nav">
 				      	<li ><a href='catalogo.php'>Catalogo</a></li>
 				      	<li ><a href='perfil.php'>Perfil</a></li>
-				        <li><a href="logout.php">Salir</a></li>
+				        <li><a style="color:blue" href="logout.php">Salir</a></li>
 			      </ul>
 		   	</div>
 		</div>
