@@ -1,3 +1,4 @@
+<!--https://developers.google.com/maps/articles/phpsqlajax_v3?hl=es-->
 <?php
 	include "includes/database.php";
 
@@ -6,7 +7,6 @@ $doc = domxml_new_doc("1.0");
 $node = $doc->create_element("markers");
 $parnode = $doc->append_child($node);
 
-// Opens a connection to a MySQL server
 $connection=mysql_connect ('localhost', $username, $password);
 if (!$connection) {
   die('Not connected : ' . mysql_error());
